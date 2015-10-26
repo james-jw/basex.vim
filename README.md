@@ -1,14 +1,28 @@
 # basex.vim
-Syntastic file checker for XQuery utilizing BaseX
+Syntastica file checker for XQuery, utilizing [BaseX][1].
 
-### About Syntastic
-[Syntastic][0] is a generic syntax file validation tool for use with vim. For more details check our their page.
+### About Syntastica
+[Syntastica][0] is a generic syntax file validation tool for use with vim. For more details check our their page.
 
 ### About BaseX.vim
-The BaseX.vim syntax checker leverages [BaseX][1] for valildatng XQuery modules and scripts in ``vim``.
+The BaseX.vim syntax checker leverages [BaseX][1] for valildatng XQuery modules and scripts in ``vim``. 
 
 #### Screenshot
 <img src="https://raw.githubusercontent.com/james-jw/basex.vim/master/syntastica-xquery.png" />
+
+#### Installation
+Hopefully this checker will be included with Syntastica soon. But in the mean time:
+
+* Install [syntastica][0]
+* Install [BaseX][1]
+* Add BaseX to your path. For example:
+ ```bash
+ export PATH=$PATH:/root/basex/bin/
+```
+
+Done!
+
+By default Syntastica will validate your modules on ``open`` and ``write``. See the help pages regarding syntastica for configuring this behavior!
 
 #### Shout Out!
 If you like what you see here please star the repo and or follow me on github or linkedIn
