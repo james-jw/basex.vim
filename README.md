@@ -16,8 +16,8 @@ This checker is already bunded with [Syntastica][0] so all that is necessary:
 * Install [syntastica][0]
 * Install [BaseX][1]
 * Add BaseX to your path. For example:
- ```bash
- export PATH=$PATH:/root/basex/bin/
+```bash
+ export PATH=$PATH:~/basex/bin/
 ```
 
 Done!
