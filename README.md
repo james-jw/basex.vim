@@ -5,9 +5,10 @@ Syntastic file checker for XQuery utilizing BaseX
 [Syntastic][0] is a generic syntax file validation tool for use with vim. For more details check our their page.
 
 ### About BaseX.vim
-BaseX.vim checker leverages the BaseX binary for valildatng XQuery modules and scripts in ``vim``.
+The BaseX.vim syntax checker leverages [BaseX][1] for valildatng XQuery modules and scripts in ``vim``.
 
 #### Screenshot
+<img src="https://raw.githubusercontent.com/james-jw/basex.vim/master/syntastica-xquery.png" />
 
 #### Shout Out!
 If you like what you see here please star the repo and or follow me on github or linkedIn
@@ -15,3 +16,4 @@ If you like what you see here please star the repo and or follow me on github or
 Happy querying!
 
 [0]: https://github.com/scrooloose/syntastic
+[1]: http://www.basex.org
