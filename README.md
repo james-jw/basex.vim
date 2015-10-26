@@ -11,7 +11,7 @@ The BaseX.vim syntax checker leverages [BaseX][1] for valildatng XQuery modules 
 <img src="https://raw.githubusercontent.com/james-jw/basex.vim/master/syntastica-xquery.png" />
 
 #### Installation
-Hopefully this checker will be included with Syntastica soon. But in the mean time:
+This checker is already bunded with [Syntastica][0] so all that is necessary:
 
 * Install [syntastica][0]
 * Install [BaseX][1]
@@ -22,7 +22,7 @@ Hopefully this checker will be included with Syntastica soon. But in the mean ti
 
 Done!
 
-By default Syntastica will validate your modules on ``open`` and ``write``. See the help pages regarding syntastica for configuring this behavior!
+By default Syntastica will validate your modules on ``open`` and ``write``. See the help pages regarding [syntastica][0] for configuring this behavior!
 
 #### Shout Out!
 If you like what you see here please star the repo and or follow me on github or linkedIn
